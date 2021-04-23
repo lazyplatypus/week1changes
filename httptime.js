@@ -19,7 +19,7 @@ module.exports = async function (context, req) {
         }
 
         var clock = hour + " : " + min + " : " + sec + " " + tday
-
+ 
         function updateTime(time) {
         if (time < 10) {
             return "0" + time;
